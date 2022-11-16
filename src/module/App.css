@@ -1,0 +1,101 @@
+.listShow_container {
+	width: 80%;
+	display: flex;
+	flex-direction: column;
+}
+
+.formSection_container {
+	width: 20%;
+	height: 100vh;
+}
+
+.body_container {
+	display: flex;
+	height: 100%;
+	padding: 50px;
+	gap: 30px;
+	background-color: #242424;
+}
+.product_list {
+	background-color: #2f2f2f;
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+#delete {
+	height: 20px;
+	fill: tomato;
+	cursor: pointer;
+}
+
+#edit {
+	height: 20px;
+	fill: green;
+	cursor: pointer;
+}
+.list_title h6 {
+	font-size: 12px;
+}
+
+.list_title h1 {
+	font-size: 15px;
+	font-weight: 600;
+}
+
+.final_section_wrap {
+	background-color: #2f2f2f;
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+	border-radius: 10px;
+	margin-top: 40px;
+}
+
+.empty_section {
+	width: 100%;
+	height: 140px;
+	background-color: #2f2f2f;
+	border-radius: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.empty_section svg {
+	fill: white;
+	width: 60px;
+	height: 60px;
+	opacity: 0.5;
+}
+
+/* modal  */
+
+.MuiTypography-root {
+	background-color: #242424;
+	padding: 5px 25px !important;
+}
+
+.MuiDialogActions-root {
+	background-color: #242424;
+}
+
+.inputs_edit_section {
+	background-color: #242424;
+	display: flex;
+	flex-direction: column;
+	padding: 15px 25px;
+}
+.inputs_edit_section input {
+	height: 25px;
+}
+
+.css-1t1j96h-MuiPaper-root-MuiDialog-paper {
+	width: 27%;
+}
+
+.main_input_div_final_price.edit {
+	background-color: #242424;
+	padding: 15px 25px;
+}
