@@ -133,7 +133,11 @@ function App() {
           </div>
           <div>
             <h6>Total Discount</h6>
-            <h1>{Math.round((1 - totalPayment / totalPrice) * 100)}%</h1>
+            <h1>
+              {state.length &&
+                Math.round((1 - totalPayment / totalPrice) * 100)}
+              %
+            </h1>
           </div>
           <div>
             <h6>Total Payment</h6>
